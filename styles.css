@@ -1,14 +1,12 @@
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .content   {
   display: flex;
   flex-direction: column;
-  padding: 20px;
   overflow-x: hidden;
   max-width: 2000px; 
 }
@@ -46,7 +44,7 @@
 }
 
 .about-stripe {
-  background-color: blue;
+  background-color: #a1c5ff;
   transform: rotate(-10deg) scale(200);
   transform-origin: bottom left;
   z-index: -1;
@@ -56,6 +54,10 @@
 .about-icons {
   display: flex;
   height: 20px;  
+}
+
+.main {
+  padding: 30px;
 }
 
 .grid-container {
@@ -80,10 +82,12 @@
 .footer-info {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .footer-icons {
   display: flex;
+  gap: 10px;
 }
 
 .footer-info h1 {
@@ -134,6 +138,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 
 .card-links {
