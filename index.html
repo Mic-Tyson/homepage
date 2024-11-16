@@ -8,14 +8,18 @@
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />  
 </head>
 <body>
+  
+  <div class="content">
 
   <!-- about container -->
   <div class="about">
 
     <picture>
-      <source media="(min-width: 1000px)" srcset="./assets/images/closeup-tablet" />
-      <source media="(min-width: 600px)"  srcset="assets/images/closeup-phone" />
-      <img src="./assets/images/closeup-desktop.png" alt="Image" />
+      <source media="(min-width: 1200px)" width="600px" srcset="assets/images/closeup-desktop.png" />
+      <source media="(min-width: 1000px)" width="400px" srcset="assets/images/closeup-tablet.png" />
+      <source media="(min-width: 600px)" width="400px" srcset="assets/images/closeup-tablet.png" />
+      <source media="(min-width: 400px)"  width="300px" srcset="assets/images/closeup-phone.png"/>
+      <img src="assets/images/closeup-desktop.png" alt="Image" width="800px"/>
     </picture>
 
     <div class="about-text">
@@ -29,6 +33,8 @@
       </div>
     </div>
   </div>
+
+  <!-- stripe container -->
   <div class="about-stripe">asd</div>
 
   <!-- main container -->
@@ -42,7 +48,7 @@
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -52,14 +58,13 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
       <div class="card">
         <div class="card-img">SCREENSHOT</div>
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -69,14 +74,13 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
       <div class="card">
         <div class="card-img">SCREENSHOT</div>
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -86,14 +90,13 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
       <div class="card">
         <div class="card-img">SCREENSHOT</div>
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -103,14 +106,13 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
       <div class="card">
         <div class="card-img">SCREENSHOT</div>
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -120,14 +122,13 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
       <div class="card">
         <div class="card-img">SCREENSHOT</div>
 
         <div class="card-main">
           <div class="card-info">
-            <div class="card-title">Project Name</div>
+            <h2 class="card-title">Project Name</h2>
             <nav class="card-links">
               <a href=""> <i class="devicon-github-original"></i> </a> 
               <a href=""> <i class="devicon-twitter-original"></i> </a> 
@@ -137,7 +138,6 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iste nisi deleniti voluptates. Iure 
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -157,8 +157,14 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
       </div>
     </div>
-    <img src="assets/images/zoomedout-desktop.png" alt="" class="footer-img">
+
+    <picture>
+      <source media="(min-width: 1400px)" width="800px" srcset="assets/images/zoomedout-desktop.png" />
+      <source media="(min-width: 600px)" width="400px" srcset="assets/images/zoomedout-tablet.png" />
+      <source media="(min-width: 400px)"  width="300px" srcset="assets/images/zoomedout-phone.png"/>
+      <img src="assets/images/zoomedout-desktop.png" alt="Image" width="800px"/>
+    </picture>
   </div>
-  
+</div>
 </body>
 </html>
