@@ -20,11 +20,6 @@
   padding-right: 50px;
 }
 
-.about-img {
-  height: auto;
-  width: 600px;
-}
-
 .about-text {
   background-color: white;
   box-shadow: 1px 1px  black;
@@ -62,7 +57,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px,0.9fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   gap: 40px;
   padding: 40px;
   padding-top: 20px;
@@ -155,4 +150,28 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer picture {
+    padding: 0px;
+  }
 }
