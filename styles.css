@@ -1,0 +1,153 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content   {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-x: hidden;
+  max-width: 2000px; 
+}
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.about-img {
+  height: auto;
+  width: 600px;
+}
+
+.about-text {
+  background-color: white;
+  box-shadow: 1px 1px  black;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-icons {
+  padding: 10px;
+  gap: 10px;
+}
+
+.stripe-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.about-stripe {
+  background-color: blue;
+  transform: rotate(-10deg) scale(200);
+  transform-origin: bottom left;
+  z-index: -1;
+  translate: -50px;
+}
+
+.about-icons {
+  display: flex;
+  height: 20px;  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,0.9fr));
+  gap: 40px;
+  padding: 40px;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: #a1c5ff;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-info h1 {
+  color: #1f3b4d;
+}
+
+.footer picture {
+  padding-left: 80px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
+
+/* CARD */
+
+.card {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 1px 1px  black;
+}
+
+.card-img {
+  background-color: beige;
+  align-self: center;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.card-links a {
+  padding: 2px;
+}
+
+.card-body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
